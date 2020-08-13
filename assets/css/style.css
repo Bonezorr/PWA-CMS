@@ -1,0 +1,83 @@
+:root {
+    --primary: #36453B;
+    --secondary: #596869;
+    --third: #515751;
+    --fourth: #F5F9E9;
+    --fifth: #C2C1A5;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.logo {
+    max-height: 100px;
+}
+
+.jumbotron h1 {
+    color: #515751;
+    padding-bottom: 30px;
+}
+
+.jumbotron {
+    background-color: var(--fourth);
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+}
+
+.product-placeholder {
+	height: 100px;
+	background-color: #e9ecef;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+section h1 {
+    margin-bottom: 1em;
+}
+
+#products li {
+    padding: 10px;
+}
+
+.product-price {
+    color: green;
+}
+
+@-webkit-keyframes pulse {
+	0% {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+	50% {
+		-webkit-transform: scale3d(1.02, 1.02, 1.02);
+		transform: scale3d(1.02, 1.02, 1.02);
+	}
+	100% {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+@keyframes pulse {
+	0% {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+	50% {
+		-webkit-transform: scale3d(1.02, 1.02, 1.02);
+		transform: scale3d(1.02, 1.02, 1.02);
+	}
+	100% {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+}
